@@ -67,6 +67,10 @@ button {
     background-color: rgb(91, 81, 237);
 }
 
+.desktop {
+        width: 500px;
+        height: 450px;
+    }
 .feature-image-section {
     
     display: flex;
@@ -81,6 +85,10 @@ button {
     text-align: left;
 }
 
+.mobile {
+    width: 400px;
+    height: 400px;
+}
 .workflow {
     margin-top: 40px;
     display: flex;
@@ -104,8 +112,7 @@ footer {
     background-size: 100% 100%;
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    gap: 370px;
+    gap: 280px;
     padding: 20px 150px;
     margin-top: 100px;
 }
@@ -114,6 +121,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 120px;
+    margin-left: 130px;
 }
 
 .footer-info {
@@ -126,6 +134,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    text-align: left;
     color: #626262;
     font-size: smaller;
     font-family: Arial, Helvetica, sans-serif;
@@ -135,7 +144,11 @@ footer {
     width: 50px;
     height: 45px;
 }
-
+.social {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
 
 @media (max-width: 600px) {
     .container {
@@ -149,9 +162,9 @@ footer {
         margin-bottom: 50px;
         margin: 0 auto;
     }
-
-    .btn {
-        display: flex;
+    .desktop {
+        width: 300px;
+        height: 300px;
     }
     .feature-image-section {
         display: flex;
@@ -163,6 +176,10 @@ footer {
         flex-direction: column;
         gap: 20px;
         text-align: center;
+    }
+    .mobile {
+        width: 290px;
+        height: 280px;
     }
 
     .workflow {
@@ -222,6 +239,7 @@ footer {
     .social {
         display: flex;
         justify-content: right;
+        gap: 10px;
     }
 
 }
